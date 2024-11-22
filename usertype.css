@@ -1,0 +1,35 @@
+/* Centering everything */
+.user-type-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .question {
+    font-size: 3rem; /* Bigger font for the question */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .option-btn {
+    font-size: 1.5rem; /* Larger font size for the buttons */
+    padding: 15px 30px;
+    margin: 10px;
+    width: 200px; /* Optional: you can adjust button width */
+  }
+  
+  .selection {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
